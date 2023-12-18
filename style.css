@@ -1,0 +1,86 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
+h1{
+    font-size: large;
+    font-weight: 900;
+}
+
+a{
+    color: rgb(32, 191, 138);
+}
+
+
+
+.header{
+    background-color: #1F2937;
+
+    
+    
+    
+}
+.logotext{
+    font-size: 24px;
+    color: #E5E7EB;
+}
+
+.content{
+    
+    
+}
+
+.hero{
+    
+    
+    background-color: #1F2937;
+}
+.maintext{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+
+.second{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.infotex{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder ;
+   
+}
+
+.third{
+    background-color: #d0d2d6;
+    
+}
+
+.end{
+    font-size: 36px;
+
+
+}
+
+.button{
+    background-color: #3882f6;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+    background-color: #1F2937;
+}
+
+.foottext{
+    color: #f9faf8;
+    
+}
