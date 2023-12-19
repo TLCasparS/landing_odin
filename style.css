@@ -2,6 +2,7 @@
 body{
     display: flex;
     flex-direction: column;
+    margin: 0;
     
     
 }
@@ -164,7 +165,7 @@ button{
 .footer{
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 20vh;
     text-align: center;
     
     background-color: #1F2937;
