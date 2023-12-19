@@ -3,6 +3,7 @@ body{
     display: flex;
     flex-direction: column;
     
+    
 }
 h1{
     font-size: large;
@@ -14,40 +15,108 @@ a{
 }
 
 
-
-.header{
-    background-color: #1F2937;
-
+.top-page{
     
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.header{
+
+    display: flex;
+    flex-direction: row;
+    
+    background-color: #1F2937;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 48px
     
     
 }
+.header>.logo{
+    display: flex;
+    justify-self:left
+}
+.header>a{
+    margin: 5px;
+}
+
+
 .logotext{
+    margin: 10px;
     font-size: 24px;
     color: #E5E7EB;
 }
 
-.content{
-    
-    
-}
+
+
 
 .hero{
-    
-    
+    padding: 20px;
+    color: #ffffff;
+    justify-content: center;
     background-color: #1F2937;
+}
+
+.herotext{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    max-width: 400px;
+    
+    
+
+}
+
+.herodetail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.hero-img{
+    padding: 10px;
+    border-radius: 10%;
+
+}
+.mount{
+    height: 300px;
 }
 .maintext{
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    text-align: center;
 }
 
+.hero-secondary{
+    text-align: center;
+}
 
-.second{
+.info{
     display: flex;
     flex-direction: column;
-    
+    text-align: center;
+    align-items: center;
+
+
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+}
+
+.card>img{
+
+    width: 150px;
 
 }
 .infotex{
@@ -57,25 +126,46 @@ a{
    
 }
 
-.third{
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #d0d2d6;
     
 }
 
+.quote-text{
+    width: 400px;
+}
+
+.cite{
+    text-align: end;
+    
+}
 .end{
     font-size: 36px;
 
 
 }
 
-.button{
+.call{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+button{
     background-color: #3882f6;
+    color: #d0d2d6;
 }
 
 .footer{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    text-align: center;
     
     background-color: #1F2937;
 }
